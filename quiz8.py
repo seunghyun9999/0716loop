@@ -1,12 +1,10 @@
 import random
 
-i= 0
-res=[]
-while len(res)==6:
-    i = i+1
+result=[]
+while int(len(result))<=6:
     new = random.randint(1,45)
-    if new in res :
+    if new in result :
         print('중복')
     else :
-        res.append(new)
-print(res)
+        result.append(new)
+print(result)
